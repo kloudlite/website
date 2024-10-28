@@ -352,7 +352,7 @@ const FormSection = () => {
                     size="lg"
                     label="Country"
                     value={value}
-                    onChange={(val: any) => {
+                    onChange={(val) => {
                       onChange(val.label);
                     }}
                     options={async () => getContries()}

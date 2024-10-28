@@ -34,7 +34,7 @@ const KOverviewIndex = () => {
             <Select
               className="wb-px-lg wb-cursor-pointer !wb-h-[36px] !wb-border-none wb-outline-none"
               value={selected}
-              onChange={(_: any, v: IItem) => setSelected(v)}
+              onChange={(_, v: IItem) => setSelected(v)}
               searchable={false}
               options={async () =>
                 items.map(([key, value]) => {
