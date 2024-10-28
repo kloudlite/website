@@ -1,10 +1,10 @@
-import OptionList from 'kl-design-system/atoms/option-list';
+import OptionList from '@kloudlite/design-system/atoms/option-list';
 import { GraphExtended, GraphItem } from '../graph';
 import * as Accordion from '@radix-ui/react-accordion';
 import consts from '~/app/utils/const';
 import { useEffect, useRef, useState } from 'react';
 import { CollapseItem, autoSize } from '~/app/utils/commons';
-import Select from 'kl-design-system/atoms/select';
+import Select from '@kloudlite/design-system/atoms/select';
 
 type IItem = keyof typeof consts.helpandsupport.kloudliteOverviewFaqs;
 const KOverviewIndex = () => {
@@ -34,7 +34,7 @@ const KOverviewIndex = () => {
             <Select
               className="wb-px-lg wb-cursor-pointer !wb-h-[36px] !wb-border-none wb-outline-none"
               value={selected}
-              onChange={(_, v: IItem) => setSelected(v)}
+              onChange={(_: any, v: IItem) => setSelected(v)}
               searchable={false}
               options={async () =>
                 items.map(([key, value]) => {

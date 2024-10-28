@@ -1,6 +1,6 @@
 /** eslint-disable prefer-const */
 /** eslint-disable prettier/prettier */
-import { Button } from 'kl-design-system/atoms/button';
+import { Button } from '@kloudlite/design-system/atoms/button';
 import Link from 'next/link';
 import { ReactNode, isValidElement } from 'react';
 import useConfig from '../utils/use-config';

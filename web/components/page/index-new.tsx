@@ -1,5 +1,5 @@
 import { PlayCircle } from '@jengaicons/react';
-import Radio from 'kl-design-system/atoms/radio';
+import Radio from '@kloudlite/design-system/atoms/radio';
 import Link from 'next/link';
 import { ReactNode, useEffect, useRef, useState } from 'react';
 import Player from 'video.js/dist/types/player';

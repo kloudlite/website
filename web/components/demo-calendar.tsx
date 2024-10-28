@@ -1,4 +1,4 @@
-import { IButton } from 'kl-design-system/atoms/button';
+import { IButton } from '@kloudlite/design-system/atoms/button';
 import Button from './button';
 import Link from 'next/link';
 import { demoUrl } from '../utils/config';

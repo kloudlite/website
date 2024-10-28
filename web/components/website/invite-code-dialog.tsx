@@ -1,5 +1,5 @@
-import { TextInput } from 'kl-design-system/atoms/input';
-import Popup from 'kl-design-system/molecule/popup';
+import { TextInput } from '@kloudlite/design-system/atoms/input';
+import Popup from '@kloudlite/design-system/molecule/popup';
 
 const InviteCodeDialog = ({
   show,

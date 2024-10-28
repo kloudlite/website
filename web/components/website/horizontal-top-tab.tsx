@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { ReactNode } from 'react';
 import { ArrowRight } from '~/app/icons/icons';
-import Radio from 'kl-design-system/atoms/radio';
+import Radio from '@kloudlite/design-system/atoms/radio';
 import { cn } from '~/app/utils/commons';
 import { GraphExtended, GraphItem } from '../graph';
 import SectionWrapper from './section-wrapper';

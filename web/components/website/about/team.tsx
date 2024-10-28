@@ -3,7 +3,7 @@ import consts, {
   linkedInPrefix,
   twitterPrefix,
 } from '~/app/utils/const';
-import { IconButton } from 'kl-design-system/atoms/button';
+import { IconButton } from '@kloudlite/design-system/atoms/button';
 import {
   GithubLogo,
   Globe,

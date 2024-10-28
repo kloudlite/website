@@ -1,9 +1,9 @@
-import Tab from 'kl-design-system/atoms/tabs';
+import Tab from '@kloudlite/design-system/atoms/tabs';
 import { useEffect, useState } from 'react';
 import { PageMapItem } from 'nextra';
 import { useRouter } from 'next/router';
-import { usePagination } from 'kl-design-system/molecule/pagination';
-import { Avatar } from 'kl-design-system/atoms/avatar';
+import { usePagination } from '@kloudlite/design-system/molecule/pagination';
+import { Avatar } from '@kloudlite/design-system/atoms/avatar';
 import useConfig from '~/app/utils/use-config';
 import { DEFAULT_LOCALE } from '~/app/utils/constants';
 import { cn } from '~/app/utils/commons';

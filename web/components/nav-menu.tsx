@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import { ChevronDown } from '@jengaicons/react';
-import { Button } from 'kl-design-system/atoms/button';
+import { Button } from '@kloudlite/design-system/atoms/button';
 import Link from 'next/link';
 import { cn } from '../utils/commons';
 

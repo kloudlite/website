@@ -3,7 +3,7 @@ import type { ReactElement } from 'react';
 import { Fragment } from 'react';
 import { ChevronRight } from '@jengaicons/react';
 import { cn } from '../utils/commons';
-import { Button } from 'kl-design-system/atoms/button';
+import { Button } from '@kloudlite/design-system/atoms/button';
 import Link from 'next/link';
 
 export function Breadcrumb({

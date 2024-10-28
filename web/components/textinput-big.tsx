@@ -1,6 +1,6 @@
-import { TextInput } from 'kl-design-system/atoms/input';
+import { TextInput } from '@kloudlite/design-system/atoms/input';
 import { ChangeEventHandler } from 'react';
-import { IconButton } from 'kl-design-system/atoms/button';
+import { IconButton } from '@kloudlite/design-system/atoms/button';
 import Button from './button';
 import { ArrowRight } from '../icons/icons';
 

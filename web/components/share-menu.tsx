@@ -4,10 +4,10 @@ import {
   ShareNetwork,
   TwitterNewLogoFill,
 } from '@jengaicons/react';
-import OptionList from 'kl-design-system/atoms/option-list';
+import OptionList from '@kloudlite/design-system/atoms/option-list';
 import { useState } from 'react';
-import { toast } from 'kl-design-system/molecule/toast';
-import { Button } from 'kl-design-system/atoms/button';
+import { toast } from '@kloudlite/design-system/molecule/toast';
+import { Button } from '@kloudlite/design-system/atoms/button';
 import useClipboard from '../utils/use-clipboard';
 
 const openWindow = (url: string) => {

@@ -6,7 +6,7 @@ import {
   X,
 } from '@jengaicons/react';
 import { motion } from 'framer-motion';
-import { IconButton } from 'kl-design-system/atoms/button';
+import { IconButton } from '@kloudlite/design-system/atoms/button';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { cn } from '~/app/utils/commons';

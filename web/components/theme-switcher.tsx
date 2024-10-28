@@ -1,6 +1,6 @@
 import { Monitor, Moon, Sun } from '@jengaicons/react';
 import { useTheme } from '../utils/useTheme';
-import ButtonGroup from 'kl-design-system/atoms/button-group';
+import ButtonGroup from '@kloudlite/design-system/atoms/button-group';
 
 const ThemeSwitcher = () => {
   const { theme, setTheme } = useTheme();

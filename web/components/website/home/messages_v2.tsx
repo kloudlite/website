@@ -1,12 +1,12 @@
 /** eslint-disable @typescript-eslint/no-unused-vars */
 /** eslint-disable @typescript-eslint/no-unused-vars */
 /** eslint-disable no-unused-vars */
-import Profile from 'kl-design-system/molecule/profile';
+import Profile from '@kloudlite/design-system/molecule/profile';
 import { ReactNode, useState } from 'react';
 import consts from '~/app/utils/const';
 import { GraphItem } from '../../graph';
 import Slider from '../../slider';
-import { IAvatar } from 'kl-design-system/atoms/avatar';
+import { IAvatar } from '@kloudlite/design-system/atoms/avatar';
 import ResponsiveContainer from '../../responsive-container';
 import { BlockV2 } from '../../commons';
 

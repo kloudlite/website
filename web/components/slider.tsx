@@ -1,5 +1,5 @@
 import React, { ReactNode, useEffect, useRef } from 'react';
-import Radio from 'kl-design-system/atoms/radio';
+import Radio from '@kloudlite/design-system/atoms/radio';
 import SlickSlider from 'react-slick';
 import { GraphItem } from './graph';
 import 'slick-carousel/slick/slick.css';

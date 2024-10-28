@@ -1,4 +1,4 @@
-import { TextInput } from 'kl-design-system/atoms/input';
+import { TextInput } from '@kloudlite/design-system/atoms/input';
 import {
   Search,
   ChevronRight,
@@ -9,7 +9,7 @@ import {
   HandWaving,
 } from '@jengaicons/react';
 import Link from 'next/link';
-import { BrandLogo } from 'kl-design-system/branding/brand-logo';
+import { BrandLogo } from '@kloudlite/design-system/branding/brand-logo';
 import { ReactNode } from 'react';
 import { GraphExtended, GraphItem } from '~/app/components/graph';
 import Wrapper from '../wrapper';

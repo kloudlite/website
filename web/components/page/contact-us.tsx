@@ -5,17 +5,11 @@ import {
 } from '@jengaicons/react';
 import axios from 'axios';
 import { getCookie, setCookie } from 'cookies-next';
-import { TextArea, TextInput } from 'kl-design-system/atoms/input';
-import Select from 'kl-design-system/atoms/select';
-import { toast } from 'kl-design-system/molecule/toast';
+import { TextArea, TextInput } from '@kloudlite/design-system/atoms/input';
+import Select from '@kloudlite/design-system/atoms/select';
+import { toast } from '@kloudlite/design-system/molecule/toast';
 import Link from 'next/link';
-import {
-  ComponentProps,
-  ReactNode,
-  useEffect,
-  useLayoutEffect,
-  useState,
-} from 'react';
+import { ComponentProps, ReactNode, useLayoutEffect, useState } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import { contactUrl, supportEmail } from '~/app/utils/config';
 import consts from '~/app/utils/const';
@@ -358,7 +352,7 @@ const FormSection = () => {
                     size="lg"
                     label="Country"
                     value={value}
-                    onChange={(val) => {
+                    onChange={(val: any) => {
                       onChange(val.label);
                     }}
                     options={async () => getContries()}

@@ -1,5 +1,5 @@
 import { Key, ReactNode, useCallback, useState } from 'react';
-import Tabs from 'kl-design-system/atoms/tabs';
+import Tabs from '@kloudlite/design-system/atoms/tabs';
 import { cn } from '../utils/commons';
 
 type NonNullableString = string & NonNullable<undefined>;

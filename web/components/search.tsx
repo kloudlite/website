@@ -1,5 +1,5 @@
 import { Search } from '@jengaicons/react';
-import { IconButton } from 'kl-design-system/atoms/button';
+import { IconButton } from '@kloudlite/design-system/atoms/button';
 import { cn } from '../utils/commons';
 import useSearch from '../utils/use-search';
 

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { BrandLogo } from 'kl-design-system/branding/brand-logo';
+import { BrandLogo } from '@kloudlite/design-system/branding/brand-logo';
 import { GithubLogoFill } from '~/app/icons/icons';
 import { gitUrl } from '~/app/utils/config';
 import { GraphExtended, GraphItem } from '../../graph';

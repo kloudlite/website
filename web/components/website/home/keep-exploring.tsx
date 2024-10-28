@@ -1,5 +1,5 @@
 import { ReactNode, useState } from 'react';
-import { Button } from 'kl-design-system/atoms/button';
+import { Button } from '@kloudlite/design-system/atoms/button';
 import consts from '~/app/utils/const';
 import { ArrowRight } from '~/app/icons/icons';
 import { Block } from '../../commons';

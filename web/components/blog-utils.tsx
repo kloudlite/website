@@ -1,6 +1,6 @@
-import Profile from 'kl-design-system/molecule/profile';
+import Profile from '@kloudlite/design-system/molecule/profile';
 import { ReactNode } from 'react';
-import { Chip } from 'kl-design-system/atoms/chips';
+import { Chip } from '@kloudlite/design-system/atoms/chips';
 import ShareMenu from './share-menu';
 
 export const BlogHeader = ({

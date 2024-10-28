@@ -1,4 +1,4 @@
-import { Button } from 'kl-design-system/atoms/button';
+import { Button } from '@kloudlite/design-system/atoms/button';
 import { ReactNode, useState } from 'react';
 import { ArrowRight } from '~/app/icons/icons';
 import consts from '~/app/utils/const';

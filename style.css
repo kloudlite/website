@@ -1,8 +1,8 @@
 @import url('./fonts/Inter-var.css');
 @import url('./fonts/Familjen-Grotesk.css');
-@import '../../design-system/css/primitives.css';
-@import '../../design-system/css/default.css';
-@import '../../design-system/css/dark.css';
+@import './css/primitives.css';
+@import './css/default.css';
+@import './css/dark.css';
 @import './css/shiki.css';
 
 /* @import url('./fonts/Sriracha.css'); */

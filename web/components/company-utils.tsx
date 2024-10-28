@@ -1,4 +1,4 @@
-import { Button } from 'kl-design-system/atoms/button';
+import { Button } from '@kloudlite/design-system/atoms/button';
 
 const CompanyElement = ({ name, value }: { name: string; value: string }) => {
   return (

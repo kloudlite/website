@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import Radio from 'kl-design-system/atoms/radio';
+import Radio from '@kloudlite/design-system/atoms/radio';
 import { cn } from '~/app/utils/commons';
 import { GraphItem } from '../graph';
 import { Block } from '../commons';

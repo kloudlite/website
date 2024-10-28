@@ -1,15 +1,14 @@
 import '../style.css';
-import 'kl-design-system/index.css';
+import '@kloudlite/design-system/index.css';
 import type { AppProps } from 'next/app';
 import '../public/arduino-light.min.css';
 import { Viewport } from 'next';
-import { ToastContainer } from 'kl-design-system/molecule/toast';
+import { ToastContainer } from '@kloudlite/design-system/molecule/toast';
 import useConfig, { ConfigProvider } from '~/app/utils/use-config';
 import { SearchProvider } from '~/app/utils/use-search';
 import { MenuProvider } from '~/app/utils/use-menu';
 import ThemeProvider from '~/app/utils/useTheme';
 import FirebaseProvider from '~/app/utils/useFirebase';
-import 'react-toastify/dist/ReactToastify.css';
 import config, { authUrl } from '~/app/utils/config';
 import { useEffect } from 'react';
 import axios from 'axios';

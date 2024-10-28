@@ -1,5 +1,5 @@
 import React, { ReactNode, useEffect, useId, useState } from 'react';
-import { IconButton } from 'kl-design-system/atoms/button';
+import { IconButton } from '@kloudlite/design-system/atoms/button';
 import { XFill } from '@jengaicons/react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { cn } from '../utils/commons';

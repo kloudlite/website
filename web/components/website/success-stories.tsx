@@ -1,8 +1,8 @@
 import { ReactNode } from 'react';
-import { Button } from 'kl-design-system/atoms/button';
+import { Button } from '@kloudlite/design-system/atoms/button';
 import { ArrowRight } from '~/app/icons/icons';
 import Image from 'next/image';
-import Radio from 'kl-design-system/atoms/radio';
+import Radio from '@kloudlite/design-system/atoms/radio';
 import { cn } from '~/app/utils/commons';
 import { GraphExtended, GraphItem } from '../graph';
 import SectionWrapper from './section-wrapper';

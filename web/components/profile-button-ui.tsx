@@ -1,7 +1,7 @@
-import OptionList from 'kl-design-system/atoms/option-list';
+import OptionList from '@kloudlite/design-system/atoms/option-list';
 import { useState } from 'react';
 import Link from 'next/link';
-import Profile from 'kl-design-system/molecule/profile';
+import Profile from '@kloudlite/design-system/molecule/profile';
 import useConfig from '../utils/use-config';
 
 const ProfileButtonUI = () => {

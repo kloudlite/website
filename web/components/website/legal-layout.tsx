@@ -1,6 +1,6 @@
-import OptionList from 'kl-design-system/atoms/option-list';
-import ScrollArea from 'kl-design-system/atoms/scroll-area';
-import Tabs from 'kl-design-system/atoms/tabs';
+import OptionList from '@kloudlite/design-system/atoms/option-list';
+import ScrollArea from '@kloudlite/design-system/atoms/scroll-area';
+import Tabs from '@kloudlite/design-system/atoms/tabs';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ReactNode } from 'react';

@@ -7,17 +7,17 @@ import { useRouter } from 'next/router';
 import type { SearchData } from 'nextra';
 import type { KeyboardEvent, ReactElement, ReactNode } from 'react';
 import { useCallback, useEffect, useState } from 'react';
-import Popup from 'kl-design-system/molecule/popup';
+import Popup from '@kloudlite/design-system/molecule/popup';
 import { Search, X } from '@jengaicons/react';
 import Link from 'next/link';
-import { IconButton } from 'kl-design-system/atoms/button';
+import { IconButton } from '@kloudlite/design-system/atoms/button';
 import lodash from 'lodash';
 import ListNavigate from './list-navigate';
 import { HighlightMatches } from './highlight-matches';
 import { DEFAULT_LOCALE } from '../utils/constants';
 import { cn } from '../utils/commons';
 import useSearch from '../utils/use-search';
-import OptionList from 'kl-design-system/atoms/option-list';
+import OptionList from '@kloudlite/design-system/atoms/option-list';
 import consts from '../utils/const';
 
 type SearchResult = {

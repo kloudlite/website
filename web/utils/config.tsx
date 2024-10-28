@@ -1,5 +1,5 @@
 import { DiscordLogo, YoutubeLogoFill } from '@jengaicons/react';
-import { BrandLogo } from 'kl-design-system/branding/brand-logo';
+import { BrandLogo } from '@kloudlite/design-system/branding/brand-logo';
 import Link from 'next/link';
 import {
   GithubLogoFill,

@@ -1,7 +1,7 @@
 import { CollapseItem, autoSize } from '../utils/commons';
 import { Block, BlockV2 } from './commons';
 import { GraphItem } from './graph';
-import OptionList from 'kl-design-system/atoms/option-list';
+import OptionList from '@kloudlite/design-system/atoms/option-list';
 import * as Accordion from '@radix-ui/react-accordion';
 import {
   ReactNode,

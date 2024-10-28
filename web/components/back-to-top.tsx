@@ -1,5 +1,5 @@
 import { ArrowCircleUp } from '@jengaicons/react';
-import { Button, IButton } from 'kl-design-system/atoms/button';
+import { Button, IButton } from '@kloudlite/design-system/atoms/button';
 import type { ReactElement } from 'react';
 import { useEffect, useRef } from 'react';
 

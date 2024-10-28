@@ -5,7 +5,7 @@ import { ChevronDown } from '@jengaicons/react';
 import useConfig from '../utils/use-config';
 import { cn } from '../utils/commons';
 import { usePathname } from 'next/navigation';
-import { Button } from 'kl-design-system/atoms/button';
+import { Button } from '@kloudlite/design-system/atoms/button';
 import Link from 'next/link';
 
 export const NavListItem = React.forwardRef<

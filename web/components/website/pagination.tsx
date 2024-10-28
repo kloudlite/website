@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from '@jengaicons/react';
-import { Button, IconButton } from 'kl-design-system/atoms/button';
+import { Button, IconButton } from '@kloudlite/design-system/atoms/button';
 import { useEffect, useRef, useState } from 'react';
 
 interface IPagination {

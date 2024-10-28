@@ -1,4 +1,4 @@
-import Popup from 'kl-design-system/molecule/popup';
+import Popup from '@kloudlite/design-system/molecule/popup';
 import {
   CalendarCheck,
   CircleNotch,
@@ -9,15 +9,15 @@ import {
 } from '@jengaicons/react';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { Button, IButton } from 'kl-design-system/atoms/button';
+import { Button, IButton } from '@kloudlite/design-system/atoms/button';
 import useConfig, { IConfig } from '../utils/use-config';
 import useMenu from '../utils/use-menu';
 import ButtonDev from './button';
 import { Anchor } from './anchor';
 import { authUrl, consoleUrl } from '../utils/config';
 import { cn } from '../utils/commons';
-import OptionList from 'kl-design-system/atoms/option-list';
-import Profile from 'kl-design-system/molecule/profile';
+import OptionList from '@kloudlite/design-system/atoms/option-list';
+import Profile from '@kloudlite/design-system/molecule/profile';
 import { ArrowRight } from '../icons/icons';
 import DemoCalendar from './demo-calendar';
 

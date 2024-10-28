@@ -5,7 +5,7 @@ import {
   IButton,
   IconButton,
   Button as NativeButton,
-} from 'kl-design-system/atoms/button';
+} from '@kloudlite/design-system/atoms/button';
 import { ComponentProps, ReactNode } from 'react';
 import { cn } from '../utils/commons';
 

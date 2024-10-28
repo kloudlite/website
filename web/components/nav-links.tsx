@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from '@jengaicons/react';
-import { Button } from 'kl-design-system/atoms/button';
+import { Button } from '@kloudlite/design-system/atoms/button';
 import Link from 'next/link';
 import type { Item } from 'nextra/normalize-pages';
 import type { ReactElement } from 'react';

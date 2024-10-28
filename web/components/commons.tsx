@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import Chips from 'kl-design-system/atoms/chips';
+import Chips from '@kloudlite/design-system/atoms/chips';
 import SectionWrapper from './website/section-wrapper';
 import { GraphExtended, GraphItem } from './graph';
 import { cn } from '../utils/commons';

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { GithubLogoFill } from '@jengaicons/react';
-import { Button, IconButton } from 'kl-design-system/atoms/button';
+import { Button, IconButton } from '@kloudlite/design-system/atoms/button';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import useConfig, { IHeaderSecondary } from '../utils/use-config';

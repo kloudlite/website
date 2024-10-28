@@ -1,4 +1,4 @@
-import { Button } from 'kl-design-system/atoms/button';
+import { Button } from '@kloudlite/design-system/atoms/button';
 import Wrapper from '../../wrapper';
 import Link from 'next/link';
 import { CalendarBlank, Clock } from '@jengaicons/react';

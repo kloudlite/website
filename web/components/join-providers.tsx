@@ -5,7 +5,7 @@ import {
   GitlabLogoFill,
   GoogleLogo,
 } from '@jengaicons/react';
-import OptionList from 'kl-design-system/atoms/option-list';
+import OptionList from '@kloudlite/design-system/atoms/option-list';
 import { useState } from 'react';
 import Link from 'next/link';
 import useConfig from '../utils/use-config';

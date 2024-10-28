@@ -1,4 +1,4 @@
-import { Button as ButtonOrg, IButton } from 'kl-design-system/atoms/button';
+import { Button as ButtonOrg, IButton } from '@kloudlite/design-system/atoms/button';
 
 const Button = (props: IButton) => {
   const { content } = props;

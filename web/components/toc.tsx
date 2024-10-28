@@ -5,7 +5,7 @@ import scrollIntoView from 'scroll-into-view-if-needed';
 
 import { ArrowSquareOut } from '@jengaicons/react';
 import { LayoutGroup, motion } from 'framer-motion';
-import { Button } from 'kl-design-system/atoms/button';
+import { Button } from '@kloudlite/design-system/atoms/button';
 import Link from 'next/link';
 import { useActiveAnchor } from '../utils/active-anchor';
 import { cn } from '../utils/commons';

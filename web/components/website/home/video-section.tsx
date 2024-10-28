@@ -1,11 +1,11 @@
 import { Block } from '../../commons';
 import { GraphItem } from '../../graph';
-import { BrandLogo } from 'kl-design-system/branding/brand-logo';
+import { BrandLogo } from '@kloudlite/design-system/branding/brand-logo';
 import { CirclesThreePlus, VirtualMachine } from '@jengaicons/react';
 import { useEffect, useRef, useState } from 'react';
 import { cn } from '~/app/utils/commons';
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
-import Radio from 'kl-design-system/atoms/radio';
+import Radio from '@kloudlite/design-system/atoms/radio';
 
 const iconSize = 16;
 const videoItems = [
