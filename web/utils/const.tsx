@@ -1,13 +1,13 @@
 /** eslint-disable prettier/prettier */
 import {
-    ArrowLeftLg,
-    Config,
-    Money,
-    OpenSource,
-    PhoneCall,
-    Question,
-    Star,
-    TwitterNewLogoFill,
+  ArrowLeftLg,
+  Config,
+  Money,
+  OpenSource,
+  PhoneCall,
+  Question,
+  Star,
+  TwitterNewLogoFill,
 } from '@jengaicons/react';
 
 import Link from 'next/link';
@@ -110,22 +110,22 @@ import workflowBlog from '~/images/homeNew/exploring/workflow.jpeg';
 import explore from '~/images/explore.jpeg';
 
 import {
-    Agritech,
-    AnscerRoboticsLogo,
-    ArrowRight,
-    BoltchemLogo,
-    Code,
-    DesktopTower,
-    Developer,
-    Flask,
-    Infinity as InfinityIcon,
-    Lightbulb,
-    LockSimple,
-    PlaxonicLogo,
-    Robot,
-    RocketLaunch,
-    SelectionForeground,
-    Users,
+  Agritech,
+  AnscerRoboticsLogo,
+  ArrowRight,
+  BoltchemLogo,
+  Code,
+  DesktopTower,
+  Developer,
+  Flask,
+  Infinity as InfinityIcon,
+  Lightbulb,
+  LockSimple,
+  PlaxonicLogo,
+  Robot,
+  RocketLaunch,
+  SelectionForeground,
+  Users,
 } from '~/app/icons/icons';
 import Button from '../components/button';
 import JoinProvidersDialog from '../components/join-provider-dialog';
@@ -940,7 +940,7 @@ const consts = {
     {
       title: 'Getting started',
       desc: 'Documentation',
-      link: '/docs/getting-started',
+      link: '/docs',
     },
   ],
   docs: {

@@ -44,9 +44,7 @@ const Pagination = ({
       onPageChanged(totalPages);
     }
     if (totalPages < 7) {
-      setStartPages(
-        new Array(totalPages).fill(0).map((value, index) => index + 1)
-      );
+      setStartPages(new Array(totalPages).fill(0).map((_, index) => index + 1));
       setMiddlePages([]);
       setEndPages([]);
       return;
@@ -72,18 +70,18 @@ const Pagination = ({
     if (focusCallback) {
       if (focusItem && ref?.current?.children) {
         const itemsArray = Array.from(
-          ref.current?.children
+          ref.current?.children,
         ) as HTMLButtonElement[];
 
         if (itemsArray.find((e) => e.value === `${focusItem}`)) {
           itemsArray?.find((e) => e.value === `${focusItem}`)?.focus();
         } else {
           const divElement = itemsArray?.find(
-            (e) => e.tagName.toLowerCase() === 'div'
+            (e) => e.tagName.toLowerCase() === 'div',
           );
           if (divElement) {
             const divElementArray = Array.from(
-              divElement.children
+              divElement.children,
             ) as HTMLButtonElement[];
             if (divElementArray) {
               divElementArray.find((e) => e.value === `${focusItem}`)?.focus();
@@ -100,7 +98,7 @@ const Pagination = ({
   };
 
   return (
-    <div className="flex flex-row items-center gap-lg">
+    <div className="wb-flex wb-flex-row wb-items-center wb-gap-lg">
       <IconButton
         size="sm"
         icon={<ChevronLeft />}
@@ -116,7 +114,10 @@ const Pagination = ({
         }
       />
       {showNumbers && (
-        <div className="flex flex-row items-center gap-lg" ref={ref}>
+        <div
+          className="wb-flex wb-flex-row wb-items-center wb-gap-lg"
+          ref={ref}
+        >
           {startPages.map((sP) => (
             <Button
               size="sm"
@@ -134,9 +135,9 @@ const Pagination = ({
               }}
             />
           ))}
-          <div className="flex flex-row items-center gap-lg">
+          <div className="wb-flex wb-flex-row wb-items-center wb-gap-lg">
             {middlePages.length > 0 && (
-              <span className="bodyMd text-text-default">.....</span>
+              <span className="wb-bodyMd wb-text-text-default">.....</span>
             )}
             {middlePages.map((mP) => (
               <Button
@@ -156,7 +157,7 @@ const Pagination = ({
               />
             ))}
             {totalPages >= 7 && (
-              <span className="bodyMd text-text-default">.....</span>
+              <span className="wb-bodyMd wb-text-text-default">.....</span>
             )}
           </div>
           {endPages.map((eP) => (

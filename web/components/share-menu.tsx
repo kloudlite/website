@@ -37,7 +37,7 @@ const ShareMenu = ({ frontmatter }: { frontmatter: Record<string, any> }) => {
           }
         />
       </OptionList.Trigger>
-      <OptionList.Content>
+      <OptionList.Content className="wb-z-50">
         <OptionList.Item
           onClick={() => {
             copy(window.location.href);
@@ -56,7 +56,7 @@ const ShareMenu = ({ frontmatter }: { frontmatter: Record<string, any> }) => {
             openWindow(
               `https://x.com/intent/post?text=${
                 frontmatter.title
-              }%0A${encodeURIComponent(window.location.href)}`
+              }%0A${encodeURIComponent(window.location.href)}`,
             );
           }}
         >
@@ -71,8 +71,8 @@ const ShareMenu = ({ frontmatter }: { frontmatter: Record<string, any> }) => {
           onClick={() => {
             openWindow(
               `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-                window.location.href
-              )}`
+                window.location.href,
+              )}`,
             );
           }}
         >

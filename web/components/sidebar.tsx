@@ -376,7 +376,7 @@ export function Sidebar({
       />
       <aside
         className={cn(
-          'kl-sidebar wb-bg-surface-basic-subdued wb-z-[51] md:wb-z-10 kl-sidebar-container wb-flex-col wb-pb-6xl lg:wb-pt-0',
+          'kl-sidebar wb-bg-surface-basic-subdued wb-z-[51] lg:wb-z-10 kl-sidebar-container wb-flex-col wb-pb-6xl lg:wb-pt-0',
           'wb-top-[var(--kl-navbar-height)] lg:wb-shrink-0 motion-reduce:wb-transform-none',
           // 'wb-transform-gpu wb-transition-all wb-ease-in-out wb-duration-[3s]',
           'print:wb-hidden',

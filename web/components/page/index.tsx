@@ -58,7 +58,7 @@ const Title = () => {
 const Illustration = () => {
   return (
     <Wrapper className="-wb-mt-5xl">
-      <div className="hidden md:block wb-pb-[36px] 2xl:wb-pb-[128px]">
+      <div className="wb-hidden md:wb-block wb-pb-[36px] 2xl:wb-pb-[128px]">
         <GraphExtended
           // graph="graphIllustration"
           innerClass="-wb-mt-[2px] wb-flex wb-justify-center !wb-pt-[32px] 3xl:-wb-mx-[256px]"
@@ -129,7 +129,7 @@ const Index = () => {
               id="join-waitlist"
               className="md:wb-w-[610px] wb-flex wb-flex-col wb-gap-xl wb-items-center"
             >
-              <span className="wb-flex wb-flex-col wb-flex-col-reverse md:wb-flex-row wb-items-center wb-gap-xl wb-max-w-[432px] wb-w-full">
+              <span className="wb-flex wb-flex-col-reverse md:wb-flex-row wb-items-center wb-gap-xl wb-max-w-[432px] wb-w-full">
                 <Button
                   content="Discover Kloudlite"
                   variant="tertiary"

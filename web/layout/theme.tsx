@@ -46,7 +46,7 @@ function GitTimestamp({ timestamp }: { timestamp: Date }) {
 
 const _ProductHuntStatus = () => {
   return (
-    <div className="wb-flex wb-flex-col wb-hidden">
+    <div className="wb-flex-col wb-hidden">
       <div className="wb-p-2xl wb-bg-surface-primary-default wb-text-center text-text-on-primary">
         Kloudlite is live on Product Hunt! &nbsp;
         <a
@@ -256,7 +256,7 @@ const Main = ({ children, pageOpts }: NextraThemeLayoutProps) => {
               </main>
             </article>
             {['blog'].includes(pageType) && (
-              <div className="wb-z-50 wb-fixed wb-bottom-3xl wb-right-3xl md:wb-bottom-8xl md:wb-right-8xl">
+              <div className="wb-z-50 wb-fixed wb-bottom-10xl wb-right-3xl">
                 <BackToTop
                   className="wb-shadow-darktheme-popover !wb-hidden"
                   variant="basic"
@@ -274,7 +274,7 @@ const Main = ({ children, pageOpts }: NextraThemeLayoutProps) => {
                 className="2xl:!wb-pb-8xl"
                 title="Read more..."
                 titleClass="md:!wb-heading3xl-marketing lg:!wb-heading3xl-marketing xl:!wb-heading3xl-marketing 2xl:!wb-heading3xl-marketing 3xl:!wb-heading3xl-marketing wb-text-start"
-                titleContainerClass="wb-relative wb-z-[99] md:wb-top-[28px]"
+                titleContainerClass="wb-relative wb-z-50 md:wb-top-[28px]"
               >
                 <div className="wb-grid wb-grid-cols-1 md:wb-grid-cols-3 wb-gap-5xl">
                   {consts.homeNew.exploring.map((ti) => {

@@ -47,7 +47,7 @@ const HeaderSecondary = () => {
       className="wb-sticky wb-flex wb-flex-row wb-top-0 wb-left-0 wb-right-0 wb-bg-surface-basic-subdued/50 wb-backdrop-blur-2xl wb-border-b wb-border-border-default wb-min-h-[var(--kl-navbar-height)] wb-z-[9999]"
     >
       <Wrapper className="wb-flex">
-        <div className="wb-flex wb-flex-row wb-items-center wb-gap-6xl wb-w-full">
+        <div className="wb-flex wb-flex-row wb-items-center wb-gap-5xl wb-w-full">
           {config.logo}
           <div className="wb-hidden lg:wb-flex wb-flex-1 wb-flex-row wb-items-center wb-justify-end wb-gap-4xl wb-list-none">
             <NavigationMenuV2 />

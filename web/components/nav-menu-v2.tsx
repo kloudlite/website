@@ -122,7 +122,7 @@ const NavigationMenuV2 = () => {
     return null;
   }
   return (
-    <NavigationMenu.Root className="wb-relative wb-z-[1] wb-flex wb-w-full wb-justify-center">
+    <NavigationMenu.Root className="wb-relative wb-z-[1] wb-flex wb-w-full">
       <NavigationMenu.List className="wb-m-0 wb-flex wb-list-none wb-rounded-[6px] wb-p-1">
         {headerSecondary.items.map((i) => {
           return (
