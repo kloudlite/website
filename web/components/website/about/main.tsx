@@ -1,6 +1,7 @@
+import consts from '~/app/utils/const';
 import { GraphExtended, GraphItem } from '../../graph';
+import ResponsiveImage from '../responsive-image';
 import SectionWrapper from '../section-wrapper';
-import aboutUsBanner from '~/images/about-us/about-us-banner-1.jpg';
 
 const AboutMain = () => {
   return (
@@ -11,13 +12,26 @@ const AboutMain = () => {
         </h1>
       </div>
       <GraphExtended>
-        <div className="wb-grid wb-grid-cols-1 wb-grid-rows-[352px_auto] md:wb-grid-cols-none wb-gap-3xl md:wb-gap-5xl">
-          <GraphItem className="wb-bg-surface-basic-subdued wb-relative">
-            <img
-              src={aboutUsBanner.src}
-              className="wb-h-full wb-w-full wb-object-cover"
+        <div className="wb-grid wb-grid-cols-1 md:wb-grid-rows-[352px_auto] xl:wb-grid-rows-[416px_auto] md:wb-grid-cols-none md:wb-gap-8xl">
+          <GraphItem
+            className="wb-relative -wb-mx-3xl -wb-mt-4xl md:-wb-mt-7xl lg:-wb-mt-10xl md:wb-mx-auto xl:wb-mr-0 xl:wb-ml-auto 2xl:wb-mx-auto"
+            lines={{ left: false, right: false, bottom: false, top: false }}
+          >
+            <ResponsiveImage
+              alt="about-cover"
+              rmobile={consts.aboutus.hero.images.rmobile}
+              rmobileDark={consts.aboutus.hero.images.rmobileDark}
+              r768={consts.aboutus.hero.images.rmd}
+              r768Dark={consts.aboutus.hero.images.rmdDark}
+              r1024={consts.aboutus.hero.images.rlg}
+              r1024Dark={consts.aboutus.hero.images.rlgDark}
+              r1280={consts.aboutus.hero.images.rxl}
+              r1280Dark={consts.aboutus.hero.images.rxlDark}
+              r1440={consts.aboutus.hero.images.r2xl}
+              r1440Dark={consts.aboutus.hero.images.r2xlDark}
+              r1920={consts.aboutus.hero.images.r3xl}
+              r1920Dark={consts.aboutus.hero.images.r3xlDark}
             />
-            <div className="wb-absolute wb-inset-0 wb-bg-[#0000008c]" />
           </GraphItem>
           <div className="wb-grid wb-grid-cols-1 md:wb-grid-cols-[448px_auto] wb-gap-3xl md:wb-gap-5xl xl:wb-h-[544px] 2xl:wb-h-[480px] 3xl:wb-h-[320px]">
             <GraphItem className="wb-bg-surface-basic-subdued wb-p-5xl">

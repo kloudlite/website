@@ -109,6 +109,22 @@ import workflowBlog from '~/images/homeNew/exploring/workflow.jpeg';
 
 import explore from '~/images/explore.jpeg';
 
+//AboutUs cover
+
+import aboutUsHero3xl from '~/images/about-us/hero/about-us-hero-3xl.svg';
+import aboutUsHero2xl from '~/images/about-us/hero/about-us-hero-2xl.svg';
+import aboutUsHeroxl from '~/images/about-us/hero/about-us-hero-xl.svg';
+import aboutUsHerolg from '~/images/about-us/hero/about-us-hero-lg.svg';
+import aboutUsHeromd from '~/images/about-us/hero/about-us-hero-md.svg';
+import aboutUsHero from '~/images/about-us/hero/about-us-hero.svg';
+
+import aboutUsHero3xlDark from '~/images/about-us/hero/about-us-hero-3xl-dark.svg';
+import aboutUsHero2xlDark from '~/images/about-us/hero/about-us-hero-2xl-dark.svg';
+import aboutUsHeroxlDark from '~/images/about-us/hero/about-us-hero-xl-dark.svg';
+import aboutUsHerolgDark from '~/images/about-us/hero/about-us-hero-lg-dark.svg';
+import aboutUsHeromdDark from '~/images/about-us/hero/about-us-hero-md-dark.svg';
+import aboutUsHeroDark from '~/images/about-us/hero/about-us-hero-dark.svg';
+
 import {
   Agritech,
   AnscerRoboticsLogo,
@@ -672,6 +688,22 @@ const consts = {
     ],
   },
   aboutus: {
+    hero: {
+      images: {
+        rmobile: aboutUsHero.src,
+        rmobileDark: aboutUsHeroDark.src,
+        rmd: aboutUsHeromd.src,
+        rmdDark: aboutUsHeromdDark.src,
+        rlg: aboutUsHerolg.src,
+        rlgDark: aboutUsHerolgDark.src,
+        rxl: aboutUsHeroxl.src,
+        rxlDark: aboutUsHeroxlDark.src,
+        r2xl: aboutUsHero2xl.src,
+        r2xlDark: aboutUsHero2xlDark.src,
+        r3xl: aboutUsHero3xl.src,
+        r3xlDark: aboutUsHero3xlDark.src,
+      },
+    },
     team: [
       {
         name: 'Karthik Thirumalasetti',
