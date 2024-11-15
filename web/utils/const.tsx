@@ -916,7 +916,7 @@ const consts = {
       onboarding: {
         label: 'Onboarding',
         icon: RocketLaunch,
-        to: '/docs/faq/ai-ml-workflows',
+        to: '/docs/faq/onboarding',
         items: [
           {
             title: 'How do i start using Kloudlite?',
