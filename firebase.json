@@ -9,6 +9,16 @@
         "source": "/demo-link",
         "destination": "https://youtu.be/OkMLPnygIm8",
         "type": 301
+      },
+      {
+        "source": "/reference-guide",
+        "destination": "/docs",
+        "type": 301
+      },
+      {
+        "source": "/help-and-support",
+        "destination": "/contact-us",
+        "type": 301
       }
     ]
   }
