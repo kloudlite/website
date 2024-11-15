@@ -99,14 +99,5 @@
       "toc": true,
       "header": "secondary"
     }
-  },
-  "template": {
-    "title": "This is sample",
-    "type": "page",
-    "theme": {
-      "sidebar": false,
-      "toc": true,
-      "header": "secondary"
-    }
   }
 }

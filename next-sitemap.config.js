@@ -33,10 +33,10 @@ const ignorePaths = [
   '/help-and-support/kloudlite-overview/what-is-kloudlite',
   '/privacy-policy-2',
   '/events/1',
-  '/events/_md/1',
+  '/events/_md/',
 ];
 
 //@ts-ignore
-const ignoreFunction = (path) => {
-  return ignorePaths.includes(path);
+const ignoreFunction = (path = '') => {
+  return ignorePaths.find((p) => path.startsWith(p));
 };
